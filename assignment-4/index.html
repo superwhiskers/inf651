@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Watchlist</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="center-align">Movie Watchlist</h3>
+
+      <form id="input-form">
+        <div class="input-field">
+          <input
+            id="movie-name"
+            type="text"
+            class="validate"
+            placeholder="Enter movie title"
+          />
+        </div>
+        <div class="input-field">
+          <input
+            id="movie-categories"
+            type="text"
+            class="validate"
+            placeholder="Enter comma-delimited categories for the movie"
+          />
+        </div>
+        <input
+          id="add-movie-btn"
+          type="submit"
+          class="btn waves-effect waves-light"
+          value="Add Movie"
+        />
+      </form>
+
+      <h5>My Watchlist</h5>
+      <ul id="movie-list" class="collection">
+      </ul>
+
+      <h5>Categories</h5>
+      <ul id="category-list" class="collection">
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

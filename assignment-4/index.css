@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #333;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+#movie-list, #category-list {
+  margin-top: 20px;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collection-item .title {
+  font-weight: 500;
+}
+
+.collection-item .remove-btn {
+  color: red;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type="submit"] {
+  background-color: #00796b;
+}
+
+input[type="submit"]:hover {
+  background-color: #004d40;
+}
